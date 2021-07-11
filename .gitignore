@@ -1,0 +1,43 @@
+testbin
+bin
+*.swp
+*.versionsBackup
+tmp
+
+#maven
+target
+reports
+
+# eclipse related
+.settings
+.project
+.classpath
+*.class
+.apt_generated
+.factorypath
+
+# local files
+.DS_Store
+datasources.xml
+!redis/redis-integration-test/src/test/resources/datasources.xml
+!redis/redis-console/src/test/resources/datasources.xml
+config-cache/*
+src/main/resources/*
+
+# Idea files
+.idea
+*.iml
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# npm
+node_modules
